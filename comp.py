@@ -2,10 +2,7 @@ import streamlit as st
 import json
 import datetime
 import random
-try:
-    import openai  # For AI-powered travel tips
-except Exception as e:
-    print(e)
+
 
 # Mock Data
 DESTINATIONS = ["International Space Station", "Lunar Hotel Orion", "Mars Habitat Alpha", "Titan Explorer Base"]
